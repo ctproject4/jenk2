@@ -14,14 +14,10 @@
   <builders>
     <hudson.tasks.Shell>
       <command>cd /var/lib/
-echo &quot;git add jenkins&quot; &gt; gg.sh
-echo &quot;git commit -m &apos;commit&apos; &quot;&gt;&gt; gg.sh
-echo &quot;git remote add github https://github.com/ctproject4/jenk.git&quot;&gt;&gt; gg.sh
-echo &quot;git push -u github master&quot;&gt;&gt; gg.sh
-echo &quot;$1&quot;&gt;&gt; gg.sh
-echo &quot;$2&quot;&gt;&gt; gg.sh
-chmod 777 gg.sh
-./gg.sh ctproject4@gmail.com password_123</command>
+git add jenkins
+git commit -m &apos;commit&apos;
+git remote add github https://github.com/ctproject4/jenk.git
+git push -u github master</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers/>
