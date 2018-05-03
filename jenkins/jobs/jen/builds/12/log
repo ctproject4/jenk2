@@ -1,0 +1,20 @@
+Started by user [8mha:////4Lr5/h/tBYCUNO8tn1hCAqI+ao0MfE4g4qnEBd7Cd18UAAAAlB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYO/dLi1CL9xCwARX5Y4b0AAAA=[0majay
+Building in workspace /var/lib/jenkins/workspace/jen
+Cloning the remote Git repository
+Cloning repository https://github.com/ctproject4/jenk.git
+ > git init /var/lib/jenkins/workspace/jen # timeout=10
+Fetching upstream changes from https://github.com/ctproject4/jenk.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/ctproject4/jenk.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/ctproject4/jenk.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/ctproject4/jenk.git # timeout=10
+Fetching upstream changes from https://github.com/ctproject4/jenk.git
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/ctproject4/jenk.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+ > git rev-parse origin/master^{commit} # timeout=10
+ERROR: Couldn't find any revision to build. Verify the repository and branch configuration for this job.
+Finished: FAILURE

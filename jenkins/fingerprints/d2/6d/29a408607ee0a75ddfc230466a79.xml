@@ -16,6 +16,10 @@
       <string>calculator</string>
       <ranges>1-16</ranges>
     </entry>
+    <entry>
+      <string>jen</string>
+      <ranges>12</ranges>
+    </entry>
   </usages>
   <facets/>
 </fingerprint>
