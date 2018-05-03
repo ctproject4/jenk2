@@ -10,3 +10,61 @@ Building in workspace /var/lib/jenkins/workspace/jen
 + echo ''
 + chmod 777 gg.sh
 + ./gg.sh ctproject4@gmail.com password_123
+warning: You ran 'git add' with neither '-A (--all)' or '--ignore-removal',
+whose behaviour will change in Git 2.0 with respect to paths you removed.
+Paths like 'jenkins/queue.xml' that are
+removed from your working tree are ignored with this version of Git.
+
+* 'git add --ignore-removal <pathspec>', which is the current default,
+  ignores paths you removed from your working tree.
+
+* 'git add --all <pathspec>' will let you also record the removals.
+
+Run 'git status' to check the paths you removed from your working tree.
+
+[master 050a948] commit
+ Committer: root <root@ip-172-31-20-92.us-east-2.compute.internal>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 42 files changed, 580 insertions(+), 23 deletions(-)
+ create mode 100644 jenkins/jobs/jen/builds/8/build.xml
+ create mode 100644 jenkins/jobs/jen/builds/9/changelog.xml
+ create mode 100644 jenkins/jobs/jen/builds/9/log
+ create mode 100644 jenkins/plugins/github-oauth.jpi
+ create mode 100644 jenkins/plugins/github-oauth/.timestamp2
+ create mode 100644 jenkins/plugins/github-oauth/META-INF/MANIFEST.MF
+ create mode 100644 jenkins/plugins/github-oauth/META-INF/maven/org.jenkins-ci.plugins/github-oauth/pom.properties
+ create mode 100644 jenkins/plugins/github-oauth/META-INF/maven/org.jenkins-ci.plugins/github-oauth/pom.xml
+ create mode 100644 jenkins/plugins/github-oauth/WEB-INF/lib/findbugs-annotations-1.3.9-1.jar
+ create mode 100644 jenkins/plugins/github-oauth/WEB-INF/lib/github-oauth.jar
+ create mode 100644 jenkins/plugins/github-oauth/WEB-INF/licenses.xml
+ create mode 100644 jenkins/plugins/github-oauth/github.png
+ create mode 100644 jenkins/plugins/github-oauth/help/auth/admin-user-names-help.html
+ create mode 100644 jenkins/plugins/github-oauth/help/auth/grant-create-job-to-authenticated-help.html
+ create mode 100644 jenkins/plugins/github-oauth/help/auth/grant-read-to-anonymous-help.html
+ create mode 100644 jenkins/plugins/github-oauth/help/auth/grant-read-to-authenticated-help.html
+ create mode 100644 jenkins/plugins/github-oauth/help/auth/grant-read-to-cctray-help.html
+ create mode 100644 jenkins/plugins/github-oauth/help/auth/grant-read-to-github-webhook-help.html
+ create mode 100644 jenkins/plugins/github-oauth/help/auth/grant-viewstatus-to-anonymous-help.html
+ create mode 100644 jenkins/plugins/github-oauth/help/auth/organization-names-help.html
+ create mode 100644 jenkins/plugins/github-oauth/help/auth/use-repository-permissions-help.html
+ create mode 100644 jenkins/plugins/github-oauth/help/help-authorization-strategy.html
+ create mode 100644 jenkins/plugins/github-oauth/help/help-security-realm.html
+ create mode 100644 jenkins/plugins/github-oauth/help/realm/client-id-help.html
+ create mode 100644 jenkins/plugins/github-oauth/help/realm/client-secret-help.html
+ create mode 100644 jenkins/plugins/github-oauth/help/realm/github-api-uri-help.html
+ create mode 100644 jenkins/plugins/github-oauth/help/realm/github-web-uri-help.html
+ create mode 100644 jenkins/plugins/github-oauth/help/realm/oauth-scopes-help.html
+fatal: remote github already exists.
+fatal: could not read Username for 'https://github.com': No such device or address
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
