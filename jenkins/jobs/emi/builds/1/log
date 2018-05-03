@@ -1,0 +1,105 @@
+Started by user [8mha:////4Lr5/h/tBYCUNO8tn1hCAqI+ao0MfE4g4qnEBd7Cd18UAAAAlB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYO/dLi1CL9xCwARX5Y4b0AAAA=[0majay
+Building in workspace /var/lib/jenkins/workspace/emi
+Cloning the remote Git repository
+Cloning repository https://github.com/ctproject4/emi10.git
+ > git init /var/lib/jenkins/workspace/emi # timeout=10
+Fetching upstream changes from https://github.com/ctproject4/emi10.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/ctproject4/emi10.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/ctproject4/emi10.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/ctproject4/emi10.git # timeout=10
+Fetching upstream changes from https://github.com/ctproject4/emi10.git
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/ctproject4/emi10.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision f4138240a02f9234fc5a0ab6a26e4ceb1d3ae255 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f f4138240a02f9234fc5a0ab6a26e4ceb1d3ae255
+Commit message: "Initial commit"
+First time build. Skipping changelog.
+[emi] $ mvn clean install
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building emi10 Maven Webapp 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:////4IXll4gXNnkLOhpiYRmL61SgYunvT+5vdE4gvRQRmwe6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ emi10 ---
+[INFO] Deleting /var/lib/jenkins/workspace/emi/target
+[INFO] 
+[8mha:////4IXll4gXNnkLOhpiYRmL61SgYunvT+5vdE4gvRQRmwe6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ emi10 ---
+[debug] execute contextualize
+[8mha:////4HWLHlg7db/ACpxliKWYkXXwFB3wSrQFOVSG1feUu71GAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/emi/src/main/resources
+[INFO] 
+[8mha:////4IXll4gXNnkLOhpiYRmL61SgYunvT+5vdE4gvRQRmwe6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ emi10 ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4IXll4gXNnkLOhpiYRmL61SgYunvT+5vdE4gvRQRmwe6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ emi10 ---
+[debug] execute contextualize
+[8mha:////4HWLHlg7db/ACpxliKWYkXXwFB3wSrQFOVSG1feUu71GAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/emi/src/test/resources
+[INFO] 
+[8mha:////4IXll4gXNnkLOhpiYRmL61SgYunvT+5vdE4gvRQRmwe6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ emi10 ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4IXll4gXNnkLOhpiYRmL61SgYunvT+5vdE4gvRQRmwe6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.10:test (default-test) @ emi10 ---
+[INFO] No tests to run.
+[INFO] Surefire report directory: /var/lib/jenkins/workspace/emi/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[8mha:////4IXll4gXNnkLOhpiYRmL61SgYunvT+5vdE4gvRQRmwe6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-war-plugin:2.1.1:war (default-war) @ emi10 ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [emi10] in [/var/lib/jenkins/workspace/emi/target/emi10]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/var/lib/jenkins/workspace/emi/src/main/webapp]
+[INFO] Webapp assembled in [40 msecs]
+[INFO] Building war: /var/lib/jenkins/workspace/emi/target/emi10.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] 
+[8mha:////4IXll4gXNnkLOhpiYRmL61SgYunvT+5vdE4gvRQRmwe6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ emi10 ---
+[INFO] Installing /var/lib/jenkins/workspace/emi/target/emi10.war to /var/lib/jenkins/.m2/repository/emi10/emi10/0.0.1-SNAPSHOT/emi10-0.0.1-SNAPSHOT.war
+[INFO] Installing /var/lib/jenkins/workspace/emi/pom.xml to /var/lib/jenkins/.m2/repository/emi10/emi10/0.0.1-SNAPSHOT/emi10-0.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.330s
+[INFO] Finished at: Tue Apr 17 07:12:38 UTC 2018
+[INFO] Final Memory: 7M/18M
+[INFO] ------------------------------------------------------------------------
+Deploying /var/lib/jenkins/workspace/emi/target/emi10.war to container Tomcat 7.x Remote with context emi
+ERROR: Build step failed with exception
+org.codehaus.cargo.container.ContainerException: The [cargo.remote.username] and [cargo.remote.password] properties are mandatory and need to be defined in your configuration.
+	at org.codehaus.cargo.container.tomcat.internal.AbstractTomcatManagerDeployer.createManager(AbstractTomcatManagerDeployer.java:318)
+	at org.codehaus.cargo.container.tomcat.internal.AbstractTomcatManagerDeployer.getTomcatManager(AbstractTomcatManagerDeployer.java:83)
+	at org.codehaus.cargo.container.tomcat.internal.AbstractTomcatManagerDeployer.redeploy(AbstractTomcatManagerDeployer.java:173)
+	at hudson.plugins.deploy.CargoContainerAdapter.deploy(CargoContainerAdapter.java:77)
+	at hudson.plugins.deploy.CargoContainerAdapter$DeployCallable.invoke(CargoContainerAdapter.java:147)
+	at hudson.plugins.deploy.CargoContainerAdapter$DeployCallable.invoke(CargoContainerAdapter.java:117)
+	at hudson.FilePath.act(FilePath.java:1009)
+	at hudson.FilePath.act(FilePath.java:987)
+	at hudson.plugins.deploy.CargoContainerAdapter.redeploy(CargoContainerAdapter.java:114)
+	at hudson.plugins.deploy.PasswordProtectedAdapterCargo.redeploy(PasswordProtectedAdapterCargo.java:93)
+	at hudson.plugins.deploy.DeployPublisher.perform(DeployPublisher.java:64)
+	at hudson.tasks.BuildStepMonitor$3.perform(BuildStepMonitor.java:45)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:744)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:690)
+	at hudson.model.Build$BuildExecution.post2(Build.java:186)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:635)
+	at hudson.model.Run.execute(Run.java:1752)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:429)
+Build step 'Deploy war/ear to a container' marked build as failure
+Finished: FAILURE

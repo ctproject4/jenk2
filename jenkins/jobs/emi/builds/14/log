@@ -1,0 +1,86 @@
+Started by upstream project "[8mha:////4MAjei/LHMWhIvHTvp/holYWods+h9vi5IhHJw7tjAWUAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYB/az8JP3kxJzk0pzEkvwifQCfS8SjxQAAAA==[0mcalculator" build number [8mha:////4HVhqiMMlPj4rDKeuqsL3ZGWiFyL+42Vrr5EQe34r/OnAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAwmoBn6WflJ+smJOcmlOYkl+UX6hsYAo/l04scAAAA=[0m13
+originally caused by:
+ Started by upstream project "[8mha:////4EG+6cAmyLsqBRSQ60BvTx/dJCugNB23kxI/KvcdbwVLAAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZO/az8JP2k3Ex9AGuWH36+AAAA[0mbmi" build number [8mha:////4G7pGmCa1AlaridWpcKZ2hIxeE7JuaV9W9V0f/NBOa8eAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZu/az8JP2k3Ex9I3MA9Fyx3sAAAAA=[0m27
+ originally caused by:
+  Started by user [8mha:////4Lr5/h/tBYCUNO8tn1hCAqI+ao0MfE4g4qnEBd7Cd18UAAAAlB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYO/dLi1CL9xCwARX5Y4b0AAAA=[0majay
+Building in workspace /var/lib/jenkins/workspace/emi
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/ctproject4/emi10.git # timeout=10
+Fetching upstream changes from https://github.com/ctproject4/emi10.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/ctproject4/emi10.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision f4138240a02f9234fc5a0ab6a26e4ceb1d3ae255 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f f4138240a02f9234fc5a0ab6a26e4ceb1d3ae255
+Commit message: "Initial commit"
+ > git rev-list --no-walk f4138240a02f9234fc5a0ab6a26e4ceb1d3ae255 # timeout=10
+[emi] $ mvn clean install
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building emi10 Maven Webapp 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:////4IXll4gXNnkLOhpiYRmL61SgYunvT+5vdE4gvRQRmwe6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ emi10 ---
+[INFO] Deleting /var/lib/jenkins/workspace/emi/target
+[INFO] 
+[8mha:////4IXll4gXNnkLOhpiYRmL61SgYunvT+5vdE4gvRQRmwe6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ emi10 ---
+[debug] execute contextualize
+[8mha:////4HWLHlg7db/ACpxliKWYkXXwFB3wSrQFOVSG1feUu71GAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/emi/src/main/resources
+[INFO] 
+[8mha:////4IXll4gXNnkLOhpiYRmL61SgYunvT+5vdE4gvRQRmwe6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ emi10 ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4IXll4gXNnkLOhpiYRmL61SgYunvT+5vdE4gvRQRmwe6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ emi10 ---
+[debug] execute contextualize
+[8mha:////4HWLHlg7db/ACpxliKWYkXXwFB3wSrQFOVSG1feUu71GAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/emi/src/test/resources
+[INFO] 
+[8mha:////4IXll4gXNnkLOhpiYRmL61SgYunvT+5vdE4gvRQRmwe6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ emi10 ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4IXll4gXNnkLOhpiYRmL61SgYunvT+5vdE4gvRQRmwe6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.10:test (default-test) @ emi10 ---
+[INFO] No tests to run.
+[INFO] Surefire report directory: /var/lib/jenkins/workspace/emi/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[8mha:////4IXll4gXNnkLOhpiYRmL61SgYunvT+5vdE4gvRQRmwe6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-war-plugin:2.1.1:war (default-war) @ emi10 ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [emi10] in [/var/lib/jenkins/workspace/emi/target/emi10]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/var/lib/jenkins/workspace/emi/src/main/webapp]
+[INFO] Webapp assembled in [40 msecs]
+[INFO] Building war: /var/lib/jenkins/workspace/emi/target/emi10.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] 
+[8mha:////4IXll4gXNnkLOhpiYRmL61SgYunvT+5vdE4gvRQRmwe6AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ emi10 ---
+[INFO] Installing /var/lib/jenkins/workspace/emi/target/emi10.war to /var/lib/jenkins/.m2/repository/emi10/emi10/0.0.1-SNAPSHOT/emi10-0.0.1-SNAPSHOT.war
+[INFO] Installing /var/lib/jenkins/workspace/emi/pom.xml to /var/lib/jenkins/.m2/repository/emi10/emi10/0.0.1-SNAPSHOT/emi10-0.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.751s
+[INFO] Finished at: Thu Apr 19 10:41:39 UTC 2018
+[INFO] Final Memory: 7M/18M
+[INFO] ------------------------------------------------------------------------
+[emi] $ /bin/sh -xe /tmp/jenkins296276208933554514.sh
++ echo http://ec2-18-188-220-50.us-east-2.compute.amazonaws.com:8080/emi/
+http://ec2-18-188-220-50.us-east-2.compute.amazonaws.com:8080/emi/
+Deploying /var/lib/jenkins/workspace/emi/target/emi10.war to container Tomcat 7.x Remote with context emi
+  Redeploying [/var/lib/jenkins/workspace/emi/target/emi10.war]
+  Undeploying [/var/lib/jenkins/workspace/emi/target/emi10.war]
+  Deploying [/var/lib/jenkins/workspace/emi/target/emi10.war]
+Finished: SUCCESS

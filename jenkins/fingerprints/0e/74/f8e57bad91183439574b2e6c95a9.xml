@@ -1,0 +1,24 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2018-04-13 08:16:37.806 UTC</timestamp>
+  <md5sum>0e74f8e57bad91183439574b2e6c95a9</md5sum>
+  <fileName>Credential id=d80b1b3b-1136-4521-a26c-bed52e3aceb2 name=admin/******</fileName>
+  <usages/>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@2.1.16">
+      <timestamp>1524134670276</timestamp>
+      <itemFullName>bmi</itemFullName>
+      <timestamp0>1524134557206</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@2.1.16">
+      <timestamp>1524134684077</timestamp>
+      <itemFullName>calculator</itemFullName>
+      <timestamp0>1524134637454</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@2.1.16">
+      <timestamp>1524134699132</timestamp>
+      <itemFullName>emi</itemFullName>
+      <timestamp0>1524134650288</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

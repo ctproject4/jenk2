@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2018-04-13 08:10:16.3 UTC</timestamp>
+  <md5sum>d26d29a408607ee0a75ddfc230466a79</md5sum>
+  <fileName>Credential id=9158812c-27ac-449f-80d5-4df1efeb9cb4 name=ctproject4@gmail.com/******</fileName>
+  <usages>
+    <entry>
+      <string>emi</string>
+      <ranges>1-17</ranges>
+    </entry>
+    <entry>
+      <string>bmi</string>
+      <ranges>1-29</ranges>
+    </entry>
+    <entry>
+      <string>calculator</string>
+      <ranges>1-16</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

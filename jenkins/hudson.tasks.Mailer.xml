@@ -1,0 +1,11 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.tasks.Mailer_-DescriptorImpl plugin="mailer@1.21">
+  <defaultSuffix>@gmail.com</defaultSuffix>
+  <hudsonUrl>http://ec2-18-216-235-1.us-east-2.compute.amazonaws.com:8080/</hudsonUrl>
+  <smtpAuthUsername>rikameajay1@gmail.com</smtpAuthUsername>
+  <smtpAuthPassword>{AQAAABAAAAAgQCX17QoK0OARjnDOLEn8PCTExxJCTYYRnIH6jIqoUY/7Al9ePzHeomEZWRQ9KtTC}</smtpAuthPassword>
+  <smtpHost>smtp.gmail.com</smtpHost>
+  <useSsl>true</useSsl>
+  <smtpPort>465</smtpPort>
+  <charset>UTF-8</charset>
+</hudson.tasks.Mailer_-DescriptorImpl>

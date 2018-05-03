@@ -1,0 +1,10 @@
+Started on Apr 18, 2018 7:15:00 AM
+Using strategy: Default
+[poll] Last Built Revision: Revision f72ee5d5473f1cdd5a8b2d1c785ce8539b6199a8 (refs/remotes/origin/master)
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git ls-remote -h https://github.com/ctproject4/bmi3.git # timeout=10
+Found 1 remote heads on https://github.com/ctproject4/bmi3.git
+[poll] Latest remote head revision on refs/heads/master is: 184d01b0397cd85ef37e50d2377fb32f48406655
+Done. Took 0.43 sec
+Changes found
