@@ -16,8 +16,8 @@
       <command>cd /var/lib/
 git add jenkins
 git commit -m &apos;commit&apos;
-git remote add origin https://github.com/ctproject4/jenk.git
-git push -u origin master</command>
+git remote add github https://github.com/ctproject4/jenk.git
+git push -u github master</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers/>
