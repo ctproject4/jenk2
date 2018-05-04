@@ -3,3 +3,27 @@ Building in workspace /var/lib/jenkins/workspace/jen
 [jen] $ /bin/sh -xe /tmp/jenkins607898847296806056.sh
 + cd /var/lib/
 + git add jenkins
++ git commit -m commit
+[master f9b87fd] commit
+ Committer: ctproject4@gmail.com <root@ip-172-31-20-92.us-east-2.compute.internal>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 10 files changed, 64 insertions(+), 7 deletions(-)
+ create mode 100644 jenkins/jobs/jen/builds/15/build.xml
+ create mode 100644 jenkins/jobs/jen/builds/16/changelog.xml
+ create mode 100644 jenkins/jobs/jen/builds/16/log
++ git remote set-url github https://github.com/ctproject4/jenk2.git
++ git push -u github master
+To https://github.com/ctproject4/jenk2.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from github.
+Finished: SUCCESS
