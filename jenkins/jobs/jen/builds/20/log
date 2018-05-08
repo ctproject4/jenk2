@@ -15,3 +15,28 @@ removed from your working tree are ignored with this version of Git.
 
 Run 'git status' to check the paths you removed from your working tree.
 
++ git commit -m commit
+[master e991aed] commit
+ Committer: ctproject4@gmail.com <root@ip-172-31-20-92.us-east-2.compute.internal>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 17 files changed, 90 insertions(+), 20 deletions(-)
+ create mode 100644 jenkins/jobs/jen/builds/19/build.xml
+ create mode 100644 jenkins/jobs/jen/builds/20/changelog.xml
+ create mode 100644 jenkins/jobs/jen/builds/20/log
+ rewrite jenkins/updates/default.json (69%)
++ git remote set-url github https://github.com/ctproject4/jenk2.git
++ git push -u github master
+To https://github.com/ctproject4/jenk2.git
+   2b7dedc..e991aed  master -> master
+Branch master set up to track remote branch master from github.
+Finished: SUCCESS
