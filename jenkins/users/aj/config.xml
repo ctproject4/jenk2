@@ -17,9 +17,7 @@
           <com.cloudbees.plugins.credentials.domains.Domain>
             <name>blueocean-git-domain</name>
             <description>blueocean-git-domain to store credentials by BlueOcean</description>
-            <specifications>
-              <io.jenkins.blueocean.rest.impl.pipeline.credential.BlueOceanDomainSpecification plugin="blueocean-pipeline-scm-api@1.5.0"/>
-            </specifications>
+            <specifications/>
           </com.cloudbees.plugins.credentials.domains.Domain>
           <list>
             <com.cloudbees.jenkins.plugins.sshcredentials.impl.BasicSSHUserPrivateKey plugin="ssh-credentials@1.13">
