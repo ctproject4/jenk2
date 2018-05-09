@@ -17,7 +17,10 @@
 git add jenkins
 git commit -m &apos;commit&apos;
 git remote set-url github https://github.com/ctproject4/jenk2.git
-git push -u github master</command>
+git push -u github master
+
+
+echo https://github.com/ctproject4/jenk2</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers/>
